@@ -4,133 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facbook</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         
 </head>
+
 <body>
 
-  <!-- <div class="container text-center">
-    <div class="row row-cols-2">
-      <div class="col">Column</div>
-      <div class="col">Column</div>
-    </div>
-  </div> -->
+    <nav class="navbar navbar-expand-lg navbar-transparent " data-bs-theme="light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b style="font-size: 50px;">FacBook</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Faculties</a>
+              </li>
 
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">FacBook</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Faculties</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Login
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="login" href="#">For Principle</a></li>
-              <li><a class="login" href="#">For Faculty</a></li>
- 
+              <!-- <li class="nav-item dropdown me-0 mb-2 mb-lg-0">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Login
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item For Principle" href="#">HOD</a></li>
+                  <li><a class="dropdown-item For Faculty" href="#">Faculty</a></li>
+                  
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              
             </ul>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li> -->
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropstart">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Login
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item For Principle" href="#">HOD</a></li>
+                      <li><a class="dropdown-item For Faculty" href="#">Faculty</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+              </li>
+          </ul>
+
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+          
+        </div>
+      </nav>
+
+      <div class="card_alignment">
+    <div class="containers">
+        <input type="radio" name="slider" id="item-1" checked>
+        <input type="radio" name="slider" id="item-2">
+        <input type="radio" name="slider" id="item-3">
+        <input type="radio" name="slider" id="item-4">
+        <input type="radio" name="slider" id="item-5">
+
+      <div class="cards">
+        <label class="caard" for="item-1" id="song-1">
+          <img src="./Images/Vikas sir.png" alt="song">
+          <span class="name" id="name-1">Dr.Vikas Baloda</span>
+          <span class="description">Description for Dr.Vikas Baloda</span>
+
+        </label> 
+        <label class="caard" for="item-2" id="song-2">
+          <img src="./Images/Gindi sir.png.crdownload" alt="song">
+          <span class="name" id="name-2">Prof.Shrinidhi Gindi</span>
+          <span class="description">Description for Prof.Shrinidhi Gindi</span>
+
+    
+        </label>
+        <label class="caard" for="item-3" id="song-3">
+          <img src="./Images/Asfaq sir.png.crdownload" alt="song">
+          <span class="name" id="name-3">Dr.Ashfaq Shaikh</span>
+          <span class="description">Description for Dr.Irfan Landge</span>
+
+    
+        </label>
+        <label class="caard" for="item-4" id="song-4">
+          <img src="./Images/Farida maam.png" alt="song">
+          <span class="name" id="name-4">Er.Farida Attar</span>
+          <span class="description">Description for Er.Farida Attar</span>
+
+          
+        </label>
+        <label class="caard" for="item-5" id="song-5">
+          <img src="./Images/Farzana maam.png.crdownload" alt="song">
+          <span class="name" id="name-5">Er. Farzana Shaikh</span>
+          <span class="description">Description for Prof. Tahseen Tamboli</span>
+
+    
+          </label>
       </div>
+      <a href="/cards/cards.html"
+      style="display: inline-block; background-color: #007bff; color: #fff; padding: 10px 20px; text-decoration: none; border: 1px solid #007bff; border-radius: 5px; text-align: center; cursor: pointer;"
+      onmouseover="this.style.backgroundColor='#0056b3';" onmouseout="this.style.backgroundColor='#007bff';"
+      target="_blank">View all</a>
+
     </div>
-  </nav>
-  <div class="card_alignment">
-<div class="containers">
-    <input type="radio" name="slider" id="item-1" checked>
-    <input type="radio" name="slider" id="item-2">
-    <input type="radio" name="slider" id="item-3">
-    <input type="radio" name="slider" id="item-4">
-    <input type="radio" name="slider" id="item-5">
-  <div class="cards">
-    <label class="caard" for="item-1" id="song-1">
-      <img src="https://images.unsplash.com/photo-1552234994-66ba234fd567?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="song">
-      <!-- <div class="card-content"> -->
-        <h2 class="name">
-            <nav>Dr.Vikas Baloda</nav>
-        </h2>
-        <p class="display-on-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolore quam consectetur iure ut qui autem ad culpa voluptatum expedita, soluta eveniet beatae perspiciatis accusamus.</p>
-        <!-- <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-        </p>
-        <a href="#" class="button">
-          Find out more 
-          <span class="material-symbols-outlined">
-            arrow_right_alt
-          </span>
-        </a>
-      </div> -->
-    </label> 
-    <label class="caard" for="item-2" id="song-2">
-      <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="song">
-      <h2 class="name">
-        <nav>Prof.Shrinidhi Gindi</nav>
-    </h2>
-    <p class="display-on-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolore quam consectetur iure ut qui autem ad culpa voluptatum expedita, soluta eveniet beatae perspiciatis accusamus.</p>
-    </label>
-    <label class="caard" for="item-3" id="song-3">
-      <img src="https://images.unsplash.com/photo-1493106819501-66d381c466f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="song">
-      <h2 class="name">
-        <nav>Name</nav>
-    </h2>
-    <p class="display-on-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolore quam consectetur iure ut qui autem ad culpa voluptatum expedita, soluta eveniet beatae perspiciatis accusamus.</p>
-    </label>
-    <label class="caard" for="item-4" id="song-4">
-        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="song">
-        <h2 class="name">
-          Dr.Irfan Landge
-      </h2>
-      <p class="display-on-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolore quam consectetur iure ut qui autem ad culpa voluptatum expedita, soluta eveniet beatae perspiciatis accusamus.</p>
-    </label>
-    <label class="caard" for="item-5" id="song-5">
-        <img src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="song">
-        <h2 class="name">
-          <nav>Er.Farida Attar</nav>
-      </h2>
-      <p class="display-on-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolore quam consectetur iure ut qui autem ad culpa voluptatum expedita, soluta eveniet beatae perspiciatis accusamus.</p>
-      </label>
 
-  </div>
-  <button type="button" class="butt btn btn-outline-dark">View All</button>
-</div>
+    <script>
+      
+      const cards = document.querySelectorAll('.caard');
+      const names = document.querySelectorAll('.name');
+      
+    
+      cards.forEach((card, index) => {
+        card.addEventListener('click', () => {
+          names.forEach(name => name.style.opacity = '0');
+          names[index].style.opacity = '1';
+        });
+      });     
+    </script>
+    
 
-
-
-
-
-
-
-
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-     <script src="script.js"></script>
 </body>
 </html>
