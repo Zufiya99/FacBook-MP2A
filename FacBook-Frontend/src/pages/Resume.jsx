@@ -20,17 +20,16 @@ function Resume() {
               </div>
               <div className="resume-items">
                 <div className="resume-item border-line-h active">
-                  <div className="date">2013 - Present</div>
-                  <div className="name">Art Director</div>
+                  <div className="date">2003 - Present</div>
+                  <div className="name">Assistant Professor in I.T Department </div>
                   <div className="company">Facebook Inc.</div>
                   <p>
-                    Collaborate with creative and development teams on the
-                    execution of ideas.
+                    Assistant Professor in the Information Technology Department at M.H. Saboo Siddik College of Engineering, Mumbai, bringing extensive teaching expertise and knowledge to the field of information technology.
                   </p>
                 </div>
                 <div className="resume-item border-line-h">
-                  <div className="date">2011 - 2012</div>
-                  <div className="name">Front-end Developer</div>
+                  <div className="date">1999 - 2003</div>
+                  <div className="name">Lecturer in Electronics Department</div>
                   <div className="company">Google Inc.</div>
                   <p>
                     Monitored technical aspects of the front-end delivery for
@@ -55,19 +54,18 @@ function Resume() {
               </div>
               <div className="resume-items">
                 <div className="resume-item border-line-h">
-                  <div className="date">2006 - 2008</div>
-                  <div className="name">Art University</div>
-                  <div className="company">New York</div>
+                  <div className="date">2008</div>
+                  <div className="name">M.E (ETC)</div>
+                  <div className="company">Mumbai University </div>
                   <p>
-                    Bachelor&apos;s Degree in Computer Science ABC Technical
-                    Institute, Jefferson, Missouri
+                    Master's in Electronics and Communication from Mumbai University, 2008
                   </p>
                 </div>
                 <div className="resume-item border-line-h">
                   <div className="date">2005 - 2006</div>
-                  <div className="name">Programming Course</div>
-                  <div className="company">Paris</div>
-                  <p>Coursework - Git, WordPress, Javascript, iOS, Android.</p>
+                  <div className="name">B.E(E & c)</div>
+                  <div className="company">Karnataka University</div>
+                  <p>Bachelor&apos;s in Electronics and Communication from Karnataka University, 1995</p>
                 </div>
                 <div className="resume-item">
                   <div className="date">2004 - 2005</div>
@@ -247,72 +245,72 @@ function Resume() {
 
 
         <div className="content testimonials">
-  <div className="title">Testimonials</div>
-  <div className="row testimonials-items">
-    <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
-      <div className="revs-carousel default-revs">
-        <div className="owl-carousel">
+          <div className="title">Testimonials</div>
+          <div className="row testimonials-items">
+            <div className="col col-d-12 col-t-12 col-m-12 border-line-v">
+              <div className="revs-carousel default-revs">
+                <div className="owl-carousel">
 
-          <div className="item">
-            <div className="revs-item">
-              <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-              <div className="user">
-                <div className="img">
-                  <img src="assets/images/man1.jpg" alt="" />
-                </div>
-                <div className="info">
-                  <div className="name">Helen Floyd</div>
-                  <div className="company">Art Director</div>
+                  <div className="item">
+                    <div className="revs-item">
+                      <div className="text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </div>
+                      <div className="user">
+                        <div className="img">
+                          <img src="assets/images/man1.jpg" alt="" />
+                        </div>
+                        <div className="info">
+                          <div className="name">Helen Floyd</div>
+                          <div className="company">Art Director</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="item">
+                    <div className="revs-item">
+                      <div className="text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </div>
+                      <div className="user">
+                        <div className="img">
+                          <img src="assets/images/man1.jpg" alt="" />
+                        </div>
+                        <div className="info">
+                          <div className="name">Robert Chase</div>
+                          <div className="company">CEO</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="item">
+                    <div className="revs-item">
+                      <div className="text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </div>
+                      <div className="user">
+                        <div className="img">
+                          <img src="assets/images/man1.jpg" alt="" />
+                        </div>
+                        <div className="info">
+                          <div className="name">Helen Floyd</div>
+                          <div className="company">Art Director</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
+            <div className="clear" />
           </div>
-
-          <div className="item">
-            <div className="revs-item">
-              <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-              <div className="user">
-                <div className="img">
-                  <img src="assets/images/man1.jpg" alt="" />
-                </div>
-                <div className="info">
-                  <div className="name">Robert Chase</div>
-                  <div className="company">CEO</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="item">
-            <div className="revs-item">
-              <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-              <div className="user">
-                <div className="img">
-                  <img src="assets/images/man1.jpg" alt="" />
-                </div>
-                <div className="info">
-                  <div className="name">Helen Floyd</div>
-                  <div className="company">Art Director</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
-      </div>
-    </div>
-    <div className="clear" />
-  </div>
-</div>
 
       </div>
     </div>

@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* padding: 30px 10px; */
+  display: flex;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+  transition: background 0.4s ease-in;
+  background-color: rgb(0, 0, 0);
+  /* border: 2px solid red; */
+
+  &.blue {
+    background-color: gray;
+  }
+}
+
+input[type="radio"] {
+  display: none;
+}
+.login{
+  text-decoration:none;
+  color: black;
+  padding-left: 30px;
+}
+.dropdown-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caard {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+  border: 2px solid yellow;
+  border-radius: 100%;
+}
+.caard:hover .name {
+  opacity: 0;
+  border-radius: 100%;
+  box-shadow: 2px 2px 10px 2px rgba(81, 81, 81, 0.47);
+  opacity: 0;
+  transform: scale(1.1);
+  transition: transform 0.4s ease;
+
+}
+
+p{
+  position: absolute;
+  opacity: 1;
+  max-width: 80%;
+  inset: 110px 30px 30px 30px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 40px;
+  /* border: 2px solid yellow; */
+  
+
+}
+  .display-on-hover{
+  color: white;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-weight: normal;
+  text-transform: capitalize;
+  opacity: 0;
+  /* border: 2px solid red; */
+  /* border-radius: 100%; */
+  font-size:x-large;
+  transition: inset .3s .3s ease-out;
+  transition: opacity 0.3s ease-in;
+  
+}
+
+.display-on-hover:hover {
+  opacity: 1;
+}
+.name:hover{
+ opacity: 0;
+
+}
+.display-on-hover:hover .name,
+.display-on-hover:hover h2 {
+  opacity: 0;
+}
+
+
+.container {
+  border: 2px solid red;
+}
+.col {
+  border: 2px solid red;
+}
+
+.containers {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 600px;
+  height: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+
+.card_alignment {
+  /* border: 2px solid yellow; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+h2,
+.name {
+  /* position: absolute;
+  inset:0;
+  margin: auto;
+  transition: inset .3s .3s ease-out;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border: 2px solid red;
+  border-radius: 100%; */
+  position: absolute;
+  inset: 100px 100px 3px 100px;
+  margin: auto;
+  padding-top: 180px;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-weight: normal;
+  text-transform: capitalize;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  padding-top: -50px;
+  color: white;
+  opacity: 1;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+
+#item-1:checked ~ .cards #song-5,
+#item-2:checked ~ .cards #song-1,
+#item-3:checked ~ .cards #song-2,
+#item-4:checked ~ .cards #song-3,
+#item-5:checked ~ .cards #song-4 {
+  transform: translateX(-80%) scale(0.4);
+  opacity: 0.15;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-4,
+#item-2:checked ~ .cards #song-5,
+#item-3:checked ~ .cards #song-1,
+#item-4:checked ~ .cards #song-2,
+#item-5:checked ~ .cards #song-3 {
+  transform: translateX(80%) scale(0.4);
+  opacity: 0.15;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-3,
+#item-2:checked ~ .cards #song-4,
+#item-3:checked ~ .cards #song-5,
+#item-4:checked ~ .cards #song-1,
+#item-5:checked ~ .cards #song-2 {
+  transform: translateX(-40%) scale(0.8);
+  opacity: 0.6;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-2,
+#item-2:checked ~ .cards #song-3,
+#item-3:checked ~ .cards #song-4,
+#item-4:checked ~ .cards #song-5,
+#item-5:checked ~ .cards #song-1 {
+  transform: translateX(40%) scale(0.8);
+  opacity: 0.6;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-1,
+#item-2:checked ~ .cards #song-2,
+#item-3:checked ~ .cards #song-3,
+#item-4:checked ~ .cards #song-4,
+#item-5:checked ~ .cards #song-5 {
+  transform: translateX(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+
+  img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+  }
+}

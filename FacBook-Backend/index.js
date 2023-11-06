@@ -21,7 +21,8 @@ const FacultySchema = new mongoose.Schema({
 
 const Faculty = mongoose.model('Faculty', FacultySchema);
 
-app.use(cors({ origin: 'http://127.0.0.1:5500' }));
+app.use(cors({ origin: 'http://localhost:5173/' }));
+// app.use(cors({ origin: 'http://127.0.0.1:5500' }));
 app.use(bodyParser.json()); 
 
 

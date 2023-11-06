@@ -15,16 +15,16 @@ function Contact() {
               <div className="info-list">
                 <ul>
                   <li>
-                    <strong>Address . . . . .</strong> California, USA
+                    <strong>Address . . . . .</strong> Mumbai, India
                   </li>
                   <li>
-                    <strong>Email . . . . .</strong> adlard@example.com
+                    <strong>Email . . . . .</strong> shrinidhi.gindi@mhssce.ac.in
                   </li>
                   <li>
-                    <strong>Phone . . . . .</strong> +123 654 78900
+                    <strong>Phone . . . . .</strong> +91 98201 35634
                   </li>
                   <li>
-                    <strong>Freelance . . . . .</strong> Available
+                    <strong>Professor . . . . .</strong> Available
                   </li>
                 </ul>
               </div>

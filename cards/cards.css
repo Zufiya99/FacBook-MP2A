@@ -1,0 +1,36 @@
+.row {
+  /* border: 2px solid royalblue; */
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* box-shadow: 2px 2px 10px grey; */
+  border-radius: 0%;
+  border: 0px;
+}
+.card:hover {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 2px 2px 10px grey;
+  border-radius: 0%;
+  border: 0px;
+  animation: pulse;
+  animation-duration: 0.5s;
+}
+.load_more {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.load {
+  border: 2px solid grey;
+  color: grey;
+  background-color: white;
+}

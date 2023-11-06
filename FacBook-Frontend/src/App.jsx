@@ -18,7 +18,7 @@ function App() {
           data-animation-out="fadeOutLeft"
         >
           <Header />
-          <Home />
+          <Home/>
           <About />
           <Resume />
           <Work />

@@ -4,14 +4,14 @@ function Home() {
       <div className="profile no-photo">
         <div
           className="slide"
-          style={{ backgroundImage: "url(assets/images/man5_big.jpg)" }}
+          style={{ backgroundImage: "url(assets/images/Gindi.png)" }}
         />
-        <div className="title">Ryan Adlard</div>
+        <div className="title">Prof. Shrinidhi Gindi</div>
         <div className="subtitle subtitle-typed">
           <div className="typing-title">
-            <p>Web Designer</p>
-            <p>Developer</p>
-            <p>Freelancer</p>
+            <p>Assistant Professor in I.T Department</p>
+            <p>Lecturer in Electronics Department</p>
+            <p>Area service Manager in Akanksha Tele system</p>
           </div>
         </div>
         {/* profile socials */}
@@ -34,10 +34,10 @@ function Home() {
         </div>
 
         <div className="lnks">
-          <a href="#" className="lnk">
+          <a href="https://www.mhssce.ac.in/Faculty%20Profile.php?id=268#" className="lnk" target="blank">
             <span className="text">Download CV</span>
           </a>
-          <a href="#" className="lnk discover">
+          <a href="https://www.linkedin.com/in/shrinidhi-gindi-96015530/" className="lnk discover" target="blank">
             <span className="text">Contact Me</span>
           </a>
         </div>
